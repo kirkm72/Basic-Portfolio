@@ -6,9 +6,9 @@ body{
   font-size: 18px;
   display: block;
   margin: auto;
-  background: url(/Users/kirkm/bootcamp/Basic-Portfolio/assets/images/gravel.png);
+  /* background file path is to be relative to the css file location, not the index.html location */
+  background: url(../images/gravel.png);
   background-repeat: repeat;
-
 }
 
 
